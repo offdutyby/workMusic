@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url (img.jpg) center center fixed no-repeat;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+a{
+  text-decoration: none; color: white;
+}
+
+.item {
+  opacity: 0.55;
+}
+
+.item:hover {
+  opacity: 1;
+}
+
+
+#maintitle {
+    color: white;
+    font-family: 'GmarketSansBold';
+    background-color: ;
+    width: auto;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal; font-style: normal;
+}
+
+.musicList{
+  margin-left: 40px;
+  margin-top: 80px;
+  font-size: 80px;
+  position: absolute;
+  color: white;
+  font-family: 'GmarketSansBold';
+  list-style: none;
+}
